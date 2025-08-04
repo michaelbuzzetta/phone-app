@@ -32,7 +32,6 @@ export default function App() {
       return;
     }
 
-    // First: Register this device's name + token with server
     try {
       await fetch(`${SERVER_URL}/register`, {
         method: 'POST',
