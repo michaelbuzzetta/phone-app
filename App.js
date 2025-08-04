@@ -3,7 +3,7 @@ import { Alert, View, Text, Pressable, StyleSheet, TextInput } from 'react-nativ
 import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
 
-const SERVER_URL = 'http://192.168.1.218:4000';
+const SERVER_URL = 'https://phone-app-cab6.onrender.com';
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
